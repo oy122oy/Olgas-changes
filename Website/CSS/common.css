@@ -1,41 +1,96 @@
-*{
-    font: inherit;
-    background-color: inherit;
-    color: inherit;
-    margin: inherit;
-    text-align: inherit;
-    font-family: inherit;
-}
-
-td{
-    vertical-align: top;
-}
-
-header{
-    height: 8.5rem;
-    color: aqua;
-    background-color: black;
-}
-
-main{
-    max-width: 120rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-    min-height: 40rem;
-}
-
-footer{
-    width: 100%;
-    height: 20rem;
-    object-fit: cover;
-    text-align: left;
+/* base styles */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 
 
+/* ================= HEADER ================= */
 
-.defaultHeaderTable{
-
+#headerMain {
+    background-color: #6812b8; /* dark blue */
+    padding: 10px 0;
 }
+
+#headerBorder {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Logo */
+#headerLogoDiv img {
+    height: 60px;
+    
+}
+
+/* Title */
+#headerTitleDiv img {
+    height: 40px;
+}
+
+/* Search bar */
+#headerSearchDiv {
+    grid-column: 3;
+}
+
+#headerSearchBar {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* Navigation bar */
+#headerNavBarDiv {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-around;
+    background-color: #350058;
+    padding: 10px 0;
+    border-radius: 6px;
+}
+
+.headerNavButton input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #230149;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.headerNavButton input:hover {
+    background-color: #230149;
+    transform: translateY(-1px);
+}
+
+/* ================= FOOTER ================= */
+
+#footerMain {
+    background-color: #230149;
+;
+    margin-top: 40px;
+}
+
+#footerBorder {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: #2b0148;
+}
+
