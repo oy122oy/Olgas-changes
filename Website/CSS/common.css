@@ -1,96 +1,117 @@
-/* base styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: tahoma, sans-serif;
+    font-family: 'tahoma', sans-serif;
 }
 
 body {
-    background-color: #ffffff;
-    color: #000000;
+    background-image: url(../Images/Background/background-back.png);
+    line-height: 1.6;
 }
 
-
-
-/* ================= HEADER ================= */
-
 #headerMain {
-    background-color: #6812b8; /* dark blue */
-    padding: 10px 0;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 0;
+    background-color: #4B0082;
 }
 
 #headerBorder {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto auto;
-    gap: 10px;
-    align-items: center;
+    padding: 0 20px;
 }
 
-/* Logo */
-#headerLogoDiv img {
-    height: 60px;
-    
+#headerLogoImg {
+    width: 80px;
+    height: auto;
 }
 
-/* Title */
-#headerTitleDiv img {
-    height: 40px;
-}
-
-/* Search bar */
-#headerSearchDiv {
-    grid-column: 3;
+#headerTitleImg {
+    height: 50px;
 }
 
 #headerSearchBar {
-    padding: 8px 12px;
+    padding: 5px 10px;
     border-radius: 5px;
-    border: none;
-    outline: none;
+    border: 1px solid #4B0082; /* Purple border */
 }
 
-/* Navigation bar */
 #headerNavBarDiv {
-    grid-column: 1 / -1;
     display: flex;
-    justify-content: space-around;
-    background-color: #350058;
-    padding: 10px 0;
-    border-radius: 6px;
+    gap: 10px;
 }
 
-.headerNavButton input {
-    background-color: transparent;
-    color: white;
-    border: 1px solid #230149;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.2s, transform 0.1s;
+.headerNavButton input[type="button"] {
+    background-color: #4B0082; /* Purple */
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
-.headerNavButton input:hover {
-    background-color: #230149;
-    transform: translateY(-1px);
-}
+.headerNavButton input[type="button"]:hover {
+    background-color: #008000; /* Green on hover */
 
-/* ================= FOOTER ================= */
+}
 
 #footerMain {
-    background-color: #230149;
-;
-    margin-top: 40px;
+    background-color: #63099e; 
+    padding: 20px 0;
 }
 
-#footerBorder {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
+#footerPannelContainerDiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.footerBorder {
+    border: 1px solid #4B0082; /* Purple border */
+    border-radius: 5px;
+    padding: 10px;
+    flex: 1;
     text-align: center;
-    color: #2b0148;
 }
 
+#footerCopyrightDiv {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #008000; /* Green copyright text */
+}
+
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 900px) {
+    #headerBorder, #footerPannelContainerDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerNavButton {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .headerNavButton input[type="button"] {
+        width: 80%;
+    }
+}
