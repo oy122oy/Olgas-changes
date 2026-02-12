@@ -3,25 +3,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'tahoma', sans-serif;
 }
 
 body {
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Default text color black */
+    background-image: url(../Images/Background/background-back.png);
     line-height: 1.6;
 }
 
 #headerMain {
     width: 100%;
-    background-color: #000000; /* Black header */
     color: #ffffff;
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 0;
+    background-color: #4B0082;
 }
 
 #headerBorder {
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
@@ -61,11 +61,11 @@ body {
 
 .headerNavButton input[type="button"]:hover {
     background-color: #008000; /* Green on hover */
+
 }
 
 #footerMain {
-    background-color: #000000; /* Black footer */
-    color: #ffffff;
+    background-color: #63099e; 
     padding: 20px 0;
 }
 
