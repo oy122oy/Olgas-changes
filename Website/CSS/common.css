@@ -1,117 +1,116 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'tahoma', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "tahoma", sans-serif;
 }
 
 body {
-    background-image: url(../Images/Background/background-back.png);
-    line-height: 1.6;
+  background-image: url(../Images/Background/background-back.png);
+  line-height: 1.6;
 }
 
 #headerMain {
-    width: 100%;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 30px 0;
-    background-color: #4B0082;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px 0;
+  background-color: #4b0082;
 }
 
 #headerBorder {
-    display: flex;
+  display: flex;
 
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
 }
 
 #headerLogoImg {
-    width: 80px;
-    height: auto;
+  width: 80px;
+  height: auto;
 }
 
 #headerTitleImg {
-    height: 50px;
+  height: 50px;
 }
 
 #headerSearchBar {
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid #4B0082; /* Purple border */
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #4b0082; /* Purple border */
 }
 
 #headerNavBarDiv {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .headerNavButton input[type="button"] {
-    background-color: #4B0082; /* Purple */
-    color: #ffffff;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: all 0.3s ease;
+  background-color: #4b0082; /* Purple */
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .headerNavButton input[type="button"]:hover {
-    background-color: #008000; /* Green on hover */
-
+  background-color: #008000; /* Green on hover */
 }
 
 #footerMain {
-    background-color: #63099e; 
-    padding: 20px 0;
+  background-color: #63099e;
+  padding: 20px 0;
 }
 
 #footerPannelContainerDiv {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
 .footerBorder {
-    border: 1px solid #4B0082; /* Purple border */
-    border-radius: 5px;
-    padding: 10px;
-    flex: 1;
-    text-align: center;
+  border: 1px solid #4b0082; /* Purple border */
+  border-radius: 5px;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
 }
 
 #footerCopyrightDiv {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #008000; /* Green copyright text */
+  text-align: center;
+  font-size: 0.9rem;
+  color: #008000; /* Green copyright text */
 }
 
 input[type="submit"],
 input[type="button"] {
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 900px) {
-    #headerBorder, #footerPannelContainerDiv {
-        flex-direction: column;
-        align-items: center;
-    }
+  #headerBorder,
+  #footerPannelContainerDiv {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .headerNavButton {
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-    }
+  .headerNavButton {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
 
-    .headerNavButton input[type="button"] {
-        width: 80%;
-    }
+  .headerNavButton input[type="button"] {
+    width: 80%;
+  }
 }
