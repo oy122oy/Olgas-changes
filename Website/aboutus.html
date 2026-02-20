@@ -1,172 +1,171 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Learn Maths and Have Fun</title>
+        <meta name="description" content="Index page for Math0ryx website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/CSS/common.css">
+        <link rel="stylesheet" href="/CSS/aboutus.css">
+    </head>
+    <body>
+        <!--Script declaration-->
+        <script src="JS/index.js" async defer></script>
+        <!--Header-->
+        <header id="headerMain">
+            <div id="headerBorder">
+                <div id="headerLogoDiv">
+                    <img id="headerLogoImg" src="Images/Header/WebsiteLogo.webp">
+                </div>
+                <div id="headerTitleDiv">
+                    <img id="headerTitleImg" src="Images/Header/Website_Name_V2.png">
+                </div>
+                <div id="headerSearchDiv">
+                    <input id="headerSearchBar" type="search" placeholder="Search..">
+                </div>
+                <div class="hamburger" onclick="toggleHamburger()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="hamburgerMenu">
+    <a href="aboutus.html" class="headerNavButton">Abous Us</a>
+    <a href="lessons.html" class="headerNavButton">Lessons</a>
+    <a href="games.html" class="headerNavButton">Games</a>
+    <a href="login.html" class="headerNavButton">LogIn</a>
+</div>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Learn Maths and Have Fun</title>
-    <meta name="description" content="Index page for Math0ryx website">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/CSS/common.css">
-    <link rel="stylesheet" href="/CSS/index.css">
-</head>
 
-<body>
-    <!--Script declaration-->
-    <script src="JS/index.js" async defer></script>
-
-
-
-
-
-
-
-    <!--Header-->
-    <header id="headerMain">
-        <div id="headerBorder">
-            <div id="headerLogoDiv">
-                <img id="headerLogoImg" src="Images/Header/WebsiteLogo.webp">
+                <div id="headerNavBarDiv">
+                  <div class="headerNavButton" id="headerNavButton1">
+    <a href="aboutus.html">
+        <input id="navButton1" type="button" value="About us">
+    </a>
+</div>
+<div class="headerNavButton" id="headerNavButton1">
+    <a href="lessons.html">
+        <input id="navButton1" type="button" value="Lessons">
+    </a>
+</div>
+<div class="headerNavButton" id="headerNavButton1">
+    <a href="games.html">
+        <input id="navButton1" type="button" value="Games">
+    </a>
+</div>
+<div class="headerNavButton" id="headerNavButton1">
+    <a href="login.html">
+        <input id="navButton1" type="button" value="LogIn">
+    </a>
+</div>
+<div class="headerNavButton" id="headerNavButton1">
+    <a href="ourteam.html">
+        <input id="navButton1" type="button" value="OurTeam">
+    </a>
+</div>
+<div class="headerNavButton" id="headerNavButton1">
+    <a href="contact.html">
+        <input id="navButton1" type="button" value="Contact">
+    </a>
+</div>
             </div>
-            <div id="headerTitleDiv">
-                <img id="headerTitleImg" src="Images/Header/Website_Name_V2.png">
-            </div>
-            <div id="headerSearchDiv">
-                <input id="headerSearchBar" type="search" placeholder="Search..">
-            </div>
-
-            <div class="hamburger" onclick="toggleHamburger()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-            <div id="hamburgerMenu">
-                <a href="#" class="headerNavButton">Abous Us</a>
-                <a href="#" class="headerNavButton">Lessons</a>
-                <a href="#" class="headerNavButton">Games</a>
-                <a href="#" class="headerNavButton">LogIn</a>
-            </div>
-
-
-            <div id="headerNavBarDiv">
-                <div class="headerNavButton" id="headerNavButton1">
-                    <input id="navButton1" type="button" value="About us">
-                </div>
-                <div class="headerNavButton" id="headerNavButton2">
-                    <input id="navButton2" type="button" value="Lessons">
-                </div>
-                <div class="headerNavButton" id="headerNavButton3">
-                    <input id="navButton3" type="button" value="Games">
-                </div>
-                <div class="headerNavButton" id="headerNavButton4">
-                    <input id="navButton4" type="button" value="LogIn">
-                </div>
-                <div class="headerNavButton" id="headerNavButton5">
-                    <input id="navButton5" type="button" value="Contact">
-                </div>
-                <div class="headerNavButton" id="headerNavButton6">
-                    <input id="navButton6" type="button" value="Our Team">
-                </div>
-
-
-
-
-
-
-
+        </header>
+        <!--Floating Button-->
+        <div class="fabContainer">
+            <button class="fab" onclick="toggleFab()">+</button>
+            <div class="fabOptions">
+                <button onclick="alert('Home Clicked!')">🏠</button>
+                <button onclick="alert('Search Clicked!')">🔍</button>
+                <button onclick="alert('Settings Clicked!')">⚙️</button>
             </div>
         </div>
-    </header>
+        <!--Body-->
+        <main id="indexMain">
 
-
-    <!--Floating Button-->
-    <div class="fabContainer">
-        <button class="fab" onclick="toggleFab()">+</button>
-        <div class="fabOptions">
-
-            <button onclick="alert('Home Clicked!')">🏠</button>
-            <button onclick="alert('Search Clicked!')">🔍</button>
-            <button onclick="alert('Settings Clicked!')">⚙️</button>
+        <!-- SECTION 0 -->
+<section id="indexSec0Border" class="indexContentBorder">
+    <div id="indexSec0">
+        <div id="indexSec0LBorder">
+           
+                <div id="indexSec0MainBox">
+                    <div class="main-content">
+                        <h1 class="main-heading">Why Math0ryx?</h1>
+                        
+                        <div class="main-text">
+                            <p>
+                                Math0ryx turns confusion into clarity through structured, step-by-step mastery of mathematics. 
+                                Build unshakable foundations, sharpen problem-solving instincts, and think like a true mathematician. 
+                                Interactive lessons, intelligent practice, and instant feedback accelerate real understanding — not memorization. 
+                                Unlock the logic behind numbers and transform the way you learn, solve, and succeed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+           
         </div>
     </div>
+</section>
 
 
 
-    <!--Body-->
-    <main id="indexMain">
-        <!--First Section of Content-->
-        <section id="indexSec1Border" class="indexContentBorder">
-            <div id="indexSec1">
-                <!--Left area-->
-                <div id="indexSec1LBorder">
-                    <div id="indexSec1L">
-                        <div id="indexSec1LTitleBorder" class="indexContentBorder">
-                            <div id="indexSec1LTitle">
-                                <h3> About Us</h3>
+
+
+            <!-- SECTION 1 -->
+            <section id="indexSec1Border" class="indexContentBorder">
+                <div id="indexSec1">
+                    <!-- Left -->
+                    <div id="indexSec1LBorder">
+                        <div id="indexSec1L">
+                            <div id="indexSec1LTitleBorder" class="indexContentBorder">
+                                <div id="indexSec1LTitle">
+                                    <h3> About Us</h3>
+                                </div>
+                            </div>
+                            <div id="indexSec1LContentBorder" class="indexContentBorder">
+                                <div id="indexSec1Lcontent">
+                                    <p>
+                                        What are we all about? Making sense of Maths! We believe that every learner is
+                                capable of understanding and thriving in mathematics. Our mission is rooted in the
+                                belief that math is not just a set of procedures to memorize, but a meaningful,
+                                connected body of ideas that anyone can make sense of. We provide high-quality
+                                resources designed to support both educators and students in unlocking this
+                                potential. By engaging learners as active participants in their own learning, we
+                                foster deep conceptual understanding alongside fluency. Our approach empowers
+                                students to think critically, reason confidently, and see themselves as capable and
+                                competent mathematical thinkers.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div id="indexSec1LContentBorder" class="indexContentBorder">
-                            <div id="indexSec1Lcontent">
-                                <p> What are we all about? Making sense of Maths! We believe that every learner is
-                                    capable of understanding and thriving in mathematics. Our mission is rooted in the
-                                    belief that math is not just a set of procedures to memorize, but a meaningful,
-                                    connected body of ideas that anyone can make sense of. We provide high-quality
-                                    resources designed to support both educators and students in unlocking this
-                                    potential. By engaging learners as active participants in their own learning, we
-                                    foster deep conceptual understanding alongside fluency. Our approach empowers
-                                    students to think critically, reason confidently, and see themselves as capable and
-                                    competent mathematical thinkers.
-                                </p>
+                    </div>
+                    <!-- Right -->
+                    <div id="indexSec1RBorder">
+                        <div id="indexSec1R">
+                            <div id="indexSec1RContent">
+                                <video id="videoWelcomePage">
+                                    <source src="Videos/video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Right area-->
-                <div id="indexSec1RBorder">
-                    <div id="indexSec1R">
-                        <div id="indexSec1RContent">
-                            <video id="videoWelcomePage">
-                                <source src="Videos/video.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-
-        <!--Second Section of Content-->
-        <section id="indexSec2Border" class="indexContentBorder">
-            <div id="indexSec2">
-                <!--Left area-->
-                <div id="indexSec2RBorder">
-                    <div id="indexSec2R">
-                        <div id="indexSec2RContent">
-                            <video id="videoWelcomePage">
-                                <source src="Videos/video.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Right area-->
-            <div id="indexSec1LBorder">
-                <div id="indexSec1L">
-                    <div id="indexSec2LTitleBorder" class="indexContentBorder">
-                        <div id="indexSec2LTitle">
-                            <h3> Our Mission</h3>
-                        </div>
-                    </div>
-                    <div id="indexSec2LContentBorder" class="indexContentBorder">
-                        <div id="indexSec2Lcontent">
-                            <p> We use targeted, strengths-based instruction and assessment to ensure that every
+            </section>
+            <!-- SECTION 1 -->
+            <section id="indexSec1Border" class="indexContentBorder">
+                <div id="indexSec1">
+                    <!-- Left -->
+                    <div id="indexSec1LBorder">
+                        <div id="indexSec1L">
+                            <div id="indexSec1LTitleBorder" class="indexContentBorder">
+                                <div id="indexSec1LTitle">
+                                    <h3> Our Mission</h3>
+                                </div>
+                            </div>
+                            <div id="indexSec1LContentBorder" class="indexContentBorder">
+                                <div id="indexSec1Lcontent">
+                                    <p>
+                                        We use targeted, strengths-based instruction and assessment to ensure that every
                                 student builds a strong foundation in essential mathematical skills and concepts.
                                 Rather than focusing solely on gaps, we identify and build upon what students
                                 already know, helping them make meaningful connections and steady progress. Our
@@ -174,186 +173,229 @@
                                 for schools and teachers to integrate our resources into their existing
                                 instructional frameworks. This adaptability allows educators to enhance their
                                 teaching while meeting diverse student needs.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--Third Section of Content-->
-        <section id="indexSec3Border" class="indexContentBorder">
-            <div id="indexSec3">
-                <!--Left area-->
-                <div id="indexSec3LBorder">
-                    <div id="indexSec3L">
-                        <div id="indexSec3LTitleBorder" class="indexContentBorder">
-                            <div id="indexSec3LTitle">
-                                <h3> About Us</h3>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div id="indexSec3LContentBorder" class="indexContentBorder">
-                            <div id="indexSec3Lcontent">
-                                <p> Our skills-building program is thoughtfully centered around the classroom calendar,
-                                    creating consistent, structured opportunities for practice and growth throughout the
-                                    school year. Through a variety of engaging “workouts,” students revisit and apply
-                                    important skills in new and meaningful contexts. These experiences promote
-                                    retention, deepen understanding, and encourage students to transfer their knowledge
-                                    across different mathematical situations. By embedding practice into the rhythm of
-                                    the classroom, we help make skill development both purposeful and manageable.
-                                </p>
+                    </div>
+                    <!-- Right -->
+                    <div id="indexSec1RBorder">
+                        <div id="indexSec1R">
+                            <div id="indexSec1RContent">
+                                <video id="videoWelcomePage">
+                                    <source src="Videos/video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--Right area-->
-                <div id="indexSec3RBorder">
-                    <div id="indexSec3R">
-                        <div id="indexSec3RContent">
-                            <video id="videoWelcomePage">
-                                <source src="Videos/video.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-
-                            </video>
+            </section>
+            <!-- SECTION 1 -->
+            <section id="indexSec1Border" class="indexContentBorder">
+                <div id="indexSec1">
+                    <!-- Left -->
+                    <div id="indexSec1LBorder">
+                        <div id="indexSec1L">
+                            <div id="indexSec1LTitleBorder" class="indexContentBorder">
+                                <div id="indexSec1LTitle">
+                                    <h3> Our Structure</h3>
+                                </div>
+                            </div>
+                            <div id="indexSec1LContentBorder" class="indexContentBorder">
+                                <div id="indexSec1Lcontent">
+                                    <p>
+                                        Our skills-building program is thoughtfully centered around the classroom calendar,
+                                creating consistent, structured opportunities for practice and growth throughout the
+                                school year. Through a variety of engaging “workouts,” students revisit and apply
+                                important skills in new and meaningful contexts. These experiences promote
+                                retention, deepen understanding, and encourage students to transfer their knowledge
+                                across different mathematical situations. By embedding practice into the rhythm of
+                                the classroom, we help make skill development both purposeful and manageable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right -->
+                    <div id="indexSec1RBorder">
+                        <div id="indexSec1R">
+                            <div id="indexSec1RContent">
+                                <video id="videoWelcomePage">
+                                    <source src="Videos/video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-        <!--Fourth Section of Content-->
-        <section id="indexSec4Border" class="indexContentBorder">
-            <div id="indexSec4">
-
-
-                <!--Left area-->
-                <div id="indexSec4RBorder">
-                    <div id="indexSec4R">
-                        <div id="indexSec4RContent">
-                            <video id="videoWelcomePage">
-                                <source src="Videos/video.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-
-
+            </section>
+            <!-- SECTION 1 -->
+            <section id="indexSec1Border" class="indexContentBorder">
+                <div id="indexSec1">
+                    <!-- Left -->
+                    <div id="indexSec1LBorder">
+                        <div id="indexSec1L">
+                            <div id="indexSec1LTitleBorder" class="indexContentBorder">
+                                <div id="indexSec1LTitle">
+                                    <h3> Our Approach</h3>
+                                </div>
+                            </div>
+                            <div id="indexSec1LContentBorder" class="indexContentBorder">
+                                <div id="indexSec1Lcontent">
+                                    <p>
+                                        We reinforce and extend grade-level learning by providing additional
+                                problem-solving opportunities and horizontal enrichment for all students. Rather
+                                than accelerating students beyond their grade level, we broaden and deepen their
+                                understanding within it. Our approach challenges learners to think flexibly, explore
+                                multiple strategies, and engage with rich mathematical tasks that promote reasoning
+                                and perseverance. The result is a learning environment where every student has the
+                                opportunity to grow, explore, and excel in mathematics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right -->
+                    <div id="indexSec1RBorder">
+                        <div id="indexSec1R">
+                            <div id="indexSec1RContent">
+                                <video id="videoWelcomePage">
+                                    <source src="Videos/video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!--Right area-->
-        <div id="indexSec4LBorder">
-            <div id="indexSec4L">
-                <div id="indexSec1LTitleBorder" class="indexContentBorder">
-                    <div id="indexSec4LTitle">
-                        <h3> About Us</h3>
+            </section>
+        </main>
+        <!--Footer-->
+        <footer id="footerMain">
+            <div id="footerBorder">
+                <div id="footerPannelBorder0" class="footerBorder">
+                    <div id="footerPannel0">
+                        <div id="footerLogoDiv">
+                            <img id="footerLogoImg" src="Images/Header/WebsiteLogo.webp">
+                        </div>
+                        <div id="footerTitleDiv">
+                            <img id="headerTitleImg" src="Images/Header/website_name.png">
+                        </div>
                     </div>
                 </div>
-                <div id="indexSec4LContentBorder" class="indexContentBorder">
-                    <div id="indexSec4Lcontent">
-                        <p> We reinforce and extend grade-level learning by providing additional
-                            problem-solving opportunities and horizontal enrichment for all students. Rather
-                            than accelerating students beyond their grade level, we broaden and deepen their
-                            understanding within it. Our approach challenges learners to think flexibly, explore
-                            multiple strategies, and engage with rich mathematical tasks that promote reasoning
-                            and perseverance. The result is a learning environment where every student has the
-                            opportunity to grow, explore, and excel in mathematics.
-                        </p>
+                <div id="footerPannelBorder1" class="footerBorder">
+                    <div id="footerPannel1">
+                        <ul>
+                            <li>
+                                <a href="http://www.404.com/">What We Do</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">What We DO NOT DO</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">What We Believe</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Accessibility Statement</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Compliance With Current Legislation</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Equality and Diversity</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Sustainability</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Transparency</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Jobs at Math0ryx</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Explore Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="footerPannelBorder2" class="footerBorder">
+                    <div id="footerPannel2">
+                        <ul>
+                            <li>
+                                <a href="http://www.404.com/">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Rerport a Problem</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Suggest Correction</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Share Your Ideas</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Contribute and Volunteer</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Dontate to Our Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Meet Us</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Support in Learning</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Personal Tutor</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="footerPannelBorder3" class="footerBorder">
+                    <div id="footerPannel3">
+                        <ul>
+                            <li>
+                                <a href="http://www.404.com/">Make a Payment Online</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Book Courses</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                            <li>
+                                <a href="http://www.404.com/">Donate to the Team</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-
-
-
-
-    <!--Footer-->
-    <footer id="footerMain">
-        <div id="footerBorder">
-
-            <div id="footerPannelBorder0" class="footerBorder">
-                <div id="footerPannel0">
-                    <div id="footerLogoDiv">
-                        <img id="footerLogoImg" src="Images/Header/WebsiteLogo.webp">
-                    </div>
-                    <div id="footerTitleDiv">
-                        <img id="headerTitleImg" src="Images/Header/website_name.png">
-                    </div>
+            <div id="footerCopyrightBorderDiv" class="footerBorder">
+                <div id="footerCopyrightDiv">
+                    <p>Website Math0ryx is protected by Copyright, and if you copy it we will slap you on the wrist</p>
                 </div>
             </div>
-
-            <div id="footerPannelBorder1" class="footerBorder">
-                <div id="footerPannel1">
-
-                    <ul>
-                        <li><a href="http://www.404.com/">What We Do</a></li>
-                        <li><a href="http://www.404.com/">What We DO NOT DO</a></li>
-                        <li><a href="http://www.404.com/">What We Believe</a></li>
-                        <li><a href="http://www.404.com/">Accessibility Statement</a></li>
-                        <li><a href="http://www.404.com/">Compliance With Current Legislation</a></li>
-                        <li><a href="http://www.404.com/">Equality and Diversity</a></li>
-                        <li><a href="http://www.404.com/">Sustainability</a></li>
-                        <li><a href="http://www.404.com/">Transparency</a></li>
-                        <li><a href="http://www.404.com/">Jobs at Math0ryx</a></li>
-                        <li><a href="http://www.404.com/">Explore Us</a></li>
-                    </ul>
-
-                </div>
-            </div>
-
-            <div id="footerPannelBorder2" class="footerBorder">
-                <div id="footerPannel2">
-
-                    <ul>
-                        <li><a href="http://www.404.com/">Contact Us</a></li>
-                        <li><a href="http://www.404.com/">FAQ</a></li>
-                        <li><a href="http://www.404.com/">Rerport a Problem</a></li>
-                        <li><a href="http://www.404.com/">Suggest Correction</a></li>
-                        <li><a href="http://www.404.com/">Share Your Ideas</a></li>
-                        <li><a href="http://www.404.com/">Contribute and Volunteer</a></li>
-                        <li><a href="http://www.404.com/">Dontate to Our Team</a></li>
-                        <li><a href="http://www.404.com/">Meet Us</a></li>
-                        <li><a href="http://www.404.com/">Support in Learning</a></li>
-                        <li><a href="http://www.404.com/">Personal Tutor</a></li>
-                    </ul>
-
-                </div>
-            </div>
-
-            <div id="footerPannelBorder3" class="footerBorder">
-                <div id="footerPannel3">
-
-                    <ul>
-                        <li><a href="http://www.404.com/">Make a Payment Online</a></li>
-                        <li><a href="http://www.404.com/">Book Courses</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                        <li><a href="http://www.404.com/">Donate to the Team</a></li>
-                    </ul>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div id="footerCopyrightBorderDiv" class="footerBorder">
-            <div id="footerCopyrightDiv">
-                <p>Website Math0ryx is protected by Copyright, and if you copy it we will slap you on the wrist</p>
-            </div>
-        </div>
-    </footer>
-
-
-
-</body>
-
-</html>
+        </footer>
+    </body>
