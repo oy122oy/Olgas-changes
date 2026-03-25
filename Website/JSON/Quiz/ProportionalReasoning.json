@@ -1,0 +1,22 @@
+{
+    "Questions":[
+        {
+            "AQA" : "True",
+            "Question" : "Write 3/8 as a percentage.",
+            "MultipleChoice" : "False",
+            "Answer" : "37.5"
+        },
+        {
+            "AQA" : "True",
+            "Question" : "Work out 15/32 as a decimal. Give your answer to 2 decimal places.",
+            "MultipleChoice" : "False",
+            "Answer" : "0.47"
+        },
+        {
+            "AQA" : "False",
+            "Question" : "Write 12/28 as a percentage",
+            "MultipleChoice" : "False",
+            "Answer" : "42.8"
+        }
+    ]
+}
