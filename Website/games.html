@@ -1,0 +1,440 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Games and Quizzes - Learn Maths and Have Fun</title>
+    <meta name="description" content="Index page for Math0ryx website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/games.css" />
+  </head>
+  <body>
+    <!--Script declaration-->
+    <script src="JS/index.js" async defer></script>
+    <script src="JS/common.js" async defer></script>
+
+    
+    <!--Header-->
+    <header id="headerMain">
+      <div id="headerBorder">
+        <div id="headerLogoDiv">
+          <a href="index.html">
+            <img id="headerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Math0ryx official logo" />
+          </a>
+        </div>
+        <div id="headerTitleDiv">
+          <a href="index.html">
+            <img id="headerTitleImg" src="Images/Header/Website_Name_V2.png" alt="Math0ryx website name and brand" />
+          </a>
+        </div>
+        <div id="headerSearchDiv">
+          <input id="headerSearchBar" type="search" placeholder="Search.." aria-label="Search the Math0ryx website" />
+        </div>
+
+        <div class="hamburger" id="hamburgerIcon" onclick="toggleHamburger()" aria-label="Toggle navigation menu" role="button" tabindex="0">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="hamburgerMenu">
+          <div class="headerNavButton">
+            <a href="index.html"><input type="button" value="Home" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="aboutus.html"><input type="button" value="About us" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="lessons.html"><input type="button" value="Lessons" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="games.html"><input type="button" value="Quizzes" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="login.html"><input type="button" value="Log In" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="ourteam.html"><input type="button" value="Our Team" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="contact.html"><input type="button" value="Contact" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="exam.html"><input type="button" value="Exam" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="savescore.html"><input type="button" value="Leader Board" /></a>
+          </div>
+        </div>
+
+        <div id="headerNavBarDiv">
+          
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="aboutus.html">
+              <input id="navButton1" type="button" value="About us" />
+            </a>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="lessons.html">
+              <input id="navButton1" type="button" value="Lessons" />
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoning.html">
+                  <input type="button" value="Proportional Reasoning"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebra.html">
+                  <input type="button" value="Visual Algebra"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadratics.html">
+                  <input type="button" value="Quadratics"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasions.html">
+                  <input type="button" value="Solving Equations"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchance.html">
+                  <input type="button" value="Probability and Chance"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculus.html">
+                  <input type="button" value="Calculus"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="games.html">
+              <input id="navButton1" type="button" value="Quizzes"/>
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoningquiz.html">
+                  <input type="button" value="Proportional Reasoning Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebraquiz.html">
+                  <input type="button" value="Visual Algebra Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadraticsquiz.html">
+                  <input type="button" value="Quadratics Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasionsquiz.html">
+                  <input type="button" value="Solving Equations Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchancequiz.html">
+                  <input type="button" value="Probability and Chance Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculusquiz.html">
+                  <input type="button" value="Calculus Quiz"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="exam.html">
+                <input id="navButton1" type="button" value="Exam" />
+              </a>
+            </div>
+            <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="savescore.html">
+                <input id="navButton1" type="button" value="Leader Board" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="login.html">
+                <input id="navButton1" type="button" value="Log In" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="ourteam.html">
+                <input id="navButton1" type="button" value="Our Team" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="contact.html">
+                <input id="navButton1" type="button" value="Contact" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Floating Button-->
+    <div class="fabContainer">
+      <button class="fab" onclick="toggleFab()">+</button>
+      <div class="fabOptions">
+        <button onclick="goHome()">🏠</button>
+        <button onclick="goSearch()">🔍</button>
+        <button onclick="toggleDark()">🌙</button>
+      </div>
+    </div>
+
+    <!--Body-->
+    <main id="indexMain">
+      <!--Second section of Content-->
+      <section id="indexSec2Border" class="indexContentBorder">
+        <div id="indexSec2">
+          <!--Title Area-->
+          <div id="indexSec2TitleBorder" class="indexContentBorder">
+            <div id="indexSec2Title">
+              <h4>Math Quizzes and Games</h4>
+            </div>
+          </div>
+          <!--Main content cards-->
+          <div id="indexSec2ContentCardsContainer">
+            <a href="proportionalreasoningquiz.html">
+              <div id="indexSec2Content1Border" class="indexContentBorder">
+                <div id="indexSec2Content1Container">
+                  <div class="reviewface">
+                    <img
+                      id="reviewFace"
+                      src="Images/LessonsLandingPage/proportionaterasoning2.png" alt="lesson illustration"
+                      alt="Proportional Reasoning illustration"
+                    />
+                  </div>
+                  <p>Proportional Reasoning</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="probabilityandchancequiz.html">
+              <div id="indexSec2Content2Border" class="indexContentBorder">
+                <div id="indexSec2Content2Container">
+                  <div class="reviewface">
+                    <img
+                      id="reviewFace"
+                      src="Images/LessonsLandingPage/probability2.png"
+                      alt="Probability and Chance illustration"
+                    />
+                  </div>
+                  <p>Probability and Chance</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="visualalgebraquiz.html">
+              <div id="indexSec2Content3Border" class="indexContentBorder">
+                <div id="indexSec2Content3Container">
+                  <div class="reviewface">
+                    <img
+                      id="reviewFace"
+                      src="Images/LessonsLandingPage/visualalgerba2.png" alt="  Visual Algebra illustration"
+                    />
+                  </div>
+                  <p>Visual Algebra</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="solvingequasionsquiz.html">
+              <div id="indexSec2Content4Border" class="indexContentBorder">
+                <div id="indexSec2Content4Container">
+                  <div class="reviewface">
+                    <img
+                      id="reviewFace"
+                      src="Images/LessonsLandingPage/euqations2.png" alt="lesson illustration"
+                    />
+                  </div>
+                  <p>Solving Equations</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="quadraticsquiz.html">
+              <div id="indexSec2Content5Border" class="indexContentBorder">
+                <div id="indexSec2Content5Container">
+                  <div class="reviewface">
+                    <img
+                      id="reviewFace"
+                      src="Images/LessonsLandingPage/quadratics2.png" alt="lesson illustration"
+                      type=""
+                      href=""
+                    />
+                  </div>
+                  <p>Quadratics</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="calculusquiz.html">
+              <div id="indexSec2Content6Border" class="indexContentBorder">
+                <div id="indexSec2Content6Container">
+                  <div class="reviewface">
+                    <img
+                      id="reviewFace"
+                      src="Images/LessonsLandingPage/calcullus2.png"
+                      alt="lesson illustration"
+                      type=""
+                      href=""
+                    />
+                  </div>
+                  <p>Calculus</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+     <!--Footer-->
+    <footer id="footerMain">
+      <div id="footerBorder">
+        <div id="footerPannelBorder0" class="footerBorder">
+          <div id="footerPannel0">
+            <div id="footerLogoDiv">
+              <a href="index.html">
+                <img id="footerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Mathoryx Logo"/>
+              </a>
+            </div>
+
+            <div id="footerTitleDiv">
+              <a href="index.html">
+                <img id="headerTitleImg" src="Images/Header/website_name.png" alt="Mathoryx Website Name"/>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div id="footerPannelBorder1" class="footerBorder">
+          <div id="footerPannel1">
+            <ul>
+              <li>
+                <a href="whatwedo.html">What We Do</a>
+              </li>
+              <li>
+                <a href="whatwedonotdo.html">What We DO NOT DO</a>
+              </li>
+              <li>
+                <a href="whatwebelieve.html">What We Believe</a>
+              </li>
+              <li>
+                <a href="accessibility.html">Accessibility Statement</a>
+              </li>
+              <li>
+                <a href="compliance.html">Compliance With Legislation</a>
+              </li>
+              <li>
+                <a href="equalitydiversity.html">Equality and Diversity</a>
+              </li>
+              <li>
+                <a href="sustainability.html">Sustainability</a>
+              </li>
+              <li>
+                <a href="transparency.html">Transparency</a>
+              </li>
+              <li>
+                <a href="vacancies.html">Jobs at Math0ryx</a>
+              </li>
+              <li>
+                <a href="index.html">Explore Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder2" class="footerBorder">
+          <div id="footerPannel2">
+            <ul>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="report.html">Report a Problem</a>
+              </li>
+              <li>
+                <a href="suggest.html">Suggest Correction</a>
+              </li>
+              <li>
+                <a href="share.html">Share Your Ideas</a>
+              </li>
+              <li>
+                <a href="contribute.html">Contribute and Volunteer</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to Our Team</a>
+              </li>
+              <li>
+                <a href="contact.html">Meet Us</a>
+              </li>
+              <li>
+                <a href="support.html">Support in Learning</a>
+              </li>
+              <li>
+                <a href="tutor.html">Personal Tutor</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder3" class="footerBorder">
+          <div id="footerPannel3">
+            <ul>
+              <li>
+                <a href="makeapayment.html">Make Payment Online</a>
+              </li>
+              <li>
+                <a href="bookcourses.html">Book Courses</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Invest Into Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Support The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Befriend The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">GoFundMe Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Get involved with Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footerCopyrightBorderDiv" class="footerBorder">
+        <div id="footerCopyrightDiv">
+          <p>
+            Website Math0ryx is protected by Copyright, and if you copy it we
+            will slap you on the wrist
+          </p>
+        </div>
+      </div>
+    </footer>
+   
+     <script src="JS/signup.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,652 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact Us - Math0ryx</title>
+    <meta name="description" content="Contact page for Math0ryx website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+  </head>
+  <body>
+    <!--Script declaration-->
+    <script src="JS/index.js" async defer></script>
+    <script src="JS/common.js" async defer></script>
+
+   
+    <!--Header-->
+     <header id="headerMain">
+      <div id="headerBorder">
+        <div id="headerLogoDiv">
+          <a href="index.html">
+            <img id="headerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Math0ryx official logo" />
+          </a>
+        </div>
+        <div id="headerTitleDiv">
+          <a href="index.html">
+            <img id="headerTitleImg" src="Images/Header/Website_Name_V2.png" alt="Math0ryx website name and brand" />
+          </a>
+        </div>
+        <div id="headerSearchDiv">
+          <input id="headerSearchBar" type="search" placeholder="Search.." aria-label="Search the Math0ryx website" />
+        </div>
+
+        <div class="hamburger" id="hamburgerIcon" onclick="toggleHamburger()" aria-label="Toggle navigation menu" role="button" tabindex="0">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="hamburgerMenu">
+          <div class="headerNavButton">
+            <a href="index.html"><input type="button" value="Home" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="aboutus.html"><input type="button" value="About us" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="lessons.html"><input type="button" value="Lessons" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="games.html"><input type="button" value="Quizzes" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="login.html"><input type="button" value="Log In" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="ourteam.html"><input type="button" value="Our Team" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="contact.html"><input type="button" value="Contact" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="exam.html"><input type="button" value="Exam" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="savescore.html"><input type="button" value="Leader Board" /></a>
+          </div>
+        </div>
+
+        <div id="headerNavBarDiv">
+          
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="aboutus.html">
+              <input id="navButton1" type="button" value="About us" />
+            </a>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="lessons.html">
+              <input id="navButton1" type="button" value="Lessons" />
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoning.html">
+                  <input type="button" value="Proportional Reasoning"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebra.html">
+                  <input type="button" value="Visual Algebra"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadratics.html">
+                  <input type="button" value="Quadratics"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasions.html">
+                  <input type="button" value="Solving Equations"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchance.html">
+                  <input type="button" value="Probability and Chance"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculus.html">
+                  <input type="button" value="Calculus"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="games.html">
+              <input id="navButton1" type="button" value="Quizzes"/>
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoningquiz.html">
+                  <input type="button" value="Proportional Reasoning Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebraquiz.html">
+                  <input type="button" value="Visual Algebra Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadraticsquiz.html">
+                  <input type="button" value="Quadratics Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasionsquiz.html">
+                  <input type="button" value="Solving Equations Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchancequiz.html">
+                  <input type="button" value="Probability and Chance Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculusquiz.html">
+                  <input type="button" value="Calculus Quiz"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="exam.html">
+                <input id="navButton1" type="button" value="Exam" />
+              </a>
+            </div>
+            <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="savescore.html">
+                <input id="navButton1" type="button" value="Leader Board" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="login.html">
+                <input id="navButton1" type="button" value="Log In" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="ourteam.html">
+                <input id="navButton1" type="button" value="Our Team" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="contact.html">
+                <input id="navButton1" type="button" value="Contact" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Floating Button-->
+    <div class="fabContainer">
+      <button class="fab" onclick="toggleFab()">+</button>
+      <div class="fabOptions">
+        <button onclick="goHome()">🏠</button>
+        <button onclick="goSearch()">🔍</button>
+        <button onclick="toggleDark()">🌙</button>
+      </div>
+    </div>
+    <!--Body-->
+    <main id="contactMain">
+      <!--First Section: Page Title + Intro-->
+      <section id="contactSec1Border" class="contactContentBorder">
+        <div id="contactSec1">
+          <div id="contactSec1TitleBorder" class="contactContentBorder">
+            <div id="contactSec1Title">
+              <h3>Get In Touch</h3>
+            </div>
+          </div>
+          <div id="contactSec1ContentBorder" class="contactContentBorder">
+            <div id="contactSec1Content">
+              <p>
+                Whether you're stuck on a problem, confused about a formula, or
+                just want to tell us your calculator finally forgave you — we're
+                here. Seriously, reach out. We don't bite. We do maths. There's
+                a difference.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Second Section: Contact Cards (purple band)-->
+      <section id="contactSec2Border" class="contactContentBorder">
+        <div id="contactSec2">
+          <!--Title-->
+          <div id="contactSec2TitleBorder" class="contactContentBorder">
+            <div id="contactSec2Title">
+              <p>Ways To Reach Us</p>
+            </div>
+          </div>
+          <!--Cards container-->
+          <div id="contactSec2ContentCardsContainer">
+            <div id="contactSec2Content1Border" class="contactContentBorder">
+              <div id="contactSec2Content1Container">
+                <p>📧 Email Us</p>
+                <p>here-we-go-again@math0ryx.co.uk</p>
+              </div>
+            </div>
+            <div id="contactSec2Content2Border" class="contactContentBorder">
+              <div id="contactSec2Content2Container">
+                <p>📞 Call Us</p>
+                <p>020 7946 0667</p>
+              </div>
+            </div>
+            <div id="contactSec2Content3Border" class="contactContentBorder">
+              <div id="contactSec2Content3Container">
+                <p>⏰ We're Open</p>
+                <p>24/7 – Even at 2am when fractions attack!</p>
+              </div>
+            </div>
+            <div id="contactSec2Content4Border" class="contactContentBorder">
+              <div id="contactSec2Content4Container">
+                <p>💬 Live Chat</p>
+                <p>
+                  Click the chat bubble below — we respond faster than you can
+                  say "Pythagoras"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Third Section: Contact Form-->
+      <section id="contactSec3Border" class="contactContentBorder">
+        <div id="contactSec3">
+          <!--Title-->
+          <div id="contactSec3TitleBorder" class="contactContentBorder">
+            <div id="contactSec3Title">
+              <h4>Send Us a Message</h4>
+            </div>
+          </div>
+          <!--Subtitle-->
+          <div id="contactSec3SubtitleBorder" class="contactContentBorder">
+            <div id="contactSec3Subtitle">
+              <p>
+                Fill in the form below and one of our team will get back to you
+                faster than you can solve 2 + 2. So we hope.)
+              </p>
+            </div>
+          </div>
+          <!--Form area-->
+          <div id="contactSec3FormBorder" class="contactContentBorder">
+            <div id="contactSec3FormContainer">
+              <div id="contactSec3FieldNameBorder" class="contactFieldBorder">
+                <div id="contactSec3FieldName">
+                  <label for="contactName">Your Name</label>
+                  <input
+                    id="contactName"
+                    type="text"
+                    placeholder="e.g. Albert Einstein Jr."
+                    required/>
+                </div>
+              </div>
+
+              <div id="contactSec3FieldEmailBorder" class="contactFieldBorder">
+                <div id="contactSec3FieldEmail">
+                  <label for="contactEmail">Your Email</label>
+                  <input
+                    id="contactEmail"
+                    type="email"
+                    name="email"
+                    placeholder="e.g. notastupid@email.com"
+                    required/>
+                </div>
+              </div>
+
+              <div
+                id="contactSec3FieldSubjectBorder"
+                class="contactFieldBorder"
+              >
+                <div id="contactSec3FieldSubject">
+                  <label for="contactSubject">Subject</label>
+                  <input
+                    id="contactSubject"
+                    type="text"
+                    placeholder="e.g. Urgent: Algebra attacked me"
+                    required/>
+                </div>
+              </div>
+
+              <div
+                id="contactSec3FieldMessageBorder"
+                class="contactFieldBorder"
+              >
+                <div id="contactSec3FieldMessage">
+                  <label for="contactMessage">Your Message</label>
+                  <textarea
+                    id="contactMessage"
+                    rows="6"
+                    placeholder="Tell us everything. We're listening. Unlike your maths teacher."
+                  ></textarea>
+                </div>
+              </div>
+
+              <div id="contactSec3SubmitBorder">
+                <div id="contactSec3Submit">
+                  <input
+                    id="contactSubmitButton"
+                    type="submit"
+                    value="Send Message"
+                  />
+
+                </div>
+
+                <div id="success-popup" class="popup-hidden">
+  <div class="popup-content">
+    <p>Math0ryx got you!<br>Please follow link on your email to set up your account!</p>
+    <button id="popup-close">OK</button>
+  </div>
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Fourth Section: FAQ Purple Band-->
+      <section id="contactSec4Border" class="contactContentBorder">
+        <div id="contactSec4">
+          <!--Title cards-->
+          <div id="contactSec4TitleCardsBorder">
+            <div id="contactSec4TitleCards">
+              <div id="contactSec4TitleBorder" class="contactContentBorder">
+                <div id="contactSec4Title">
+                  <p>Common Questions</p>
+                </div>
+              </div>
+              <div id="contactSec4SubtitleBorder" class="contactContentBorder">
+                <div id="contactSec4Subtitle">
+                  <p>We've answered your panic before it started.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FAQ Cards-->
+          <div id="contactSec4ContentCardsContainer">
+            <div id="contactSec4Content1Border" class="contactContentBorder">
+              <div id="contactSec4Content1Container">
+                <p>🤔 How quickly will you reply?</p>
+                <p>
+                  Usually within a few hours. If you're in exam meltdown mode,
+                  say so — we bump those up.
+                </p>
+              </div>
+            </div>
+            <div id="contactSec4Content2Border" class="contactContentBorder">
+              <div id="contactSec4Content2Container">
+                <p>😬 What if my question sounds stupid?</p>
+                <p>
+                  There are no stupid questions. Only questions that haven't
+                  been properly explained yet. That's literally what we're here
+                  for.
+                </p>
+              </div>
+            </div>
+            <div id="contactSec4Content3Border" class="contactContentBorder">
+              <div id="contactSec4Content3Container">
+                <p>💸 Is contacting you free?</p>
+                <p>
+                  Completely free. Zero. No hidden maths charges. No premium
+                  confusion package required.
+                </p>
+              </div>
+            </div>
+            <div id="contactSec4Content4Border" class="contactContentBorder">
+              <div id="contactSec4Content4Container">
+                <p>🧠 Can you help with any topic?</p>
+                <p>
+                  If it has numbers, letters posing as numbers, or symbols that
+                  look like they hate you — yes. We cover it all.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Sixth Section: Find Us-->
+    <section id="contactSec5Border" class="contactContentBorder">
+      <div id="contactSec5">
+        <!--Left: Directions-->
+        <div id="contactSec5LBorder">
+          <div id="contactSec5L">
+            <div id="contactSec5LTitleBorder" class="contactContentBorder">
+              <div id="contactSec5LTitle">
+                <h4>How To Find Us</h4>
+              </div>
+            </div>
+            <div id="contactSec5LContentBorder" class="contactContentBorder">
+              <div id="contactSec5LContent">
+                <div id="contactSec5Formula">
+                  <p id="contactSec5FormulaText">destination = f(you)</p>
+                </div>
+
+                <div id="contactSec5DirectionsBorder">
+                  <div class="contactDirection">
+                    <p class="contactDirectionIcon">🚌</p>
+                    <div class="contactDirectionText">
+                      <p class="contactDirectionTitle">By Bus</p>
+                      <p>
+                        Routes <strong>1, 4, and 33</strong> stop directly on
+                        Bishop's Rd. Alight at
+                        <strong>Queensgate Bus Station</strong> (5 min walk).
+                        Frequency ≈ every 12 minutes during peak hours.
+                        Bus(arrival) → Walk(0.4km) = You Are Here ✓
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="contactDirection">
+                    <p class="contactDirectionIcon">🚆</p>
+                    <div class="contactDirectionText">
+                      <p class="contactDirectionTitle">By Train</p>
+                      <p>
+                        Alight at <strong>Peterborough Station</strong> — 15 min
+                        walk or a 4 min taxi. Trains run from London King's
+                        Cross (50 min), Birmingham (1hr 20). Train(t) +
+                        Walk(900m) = Math0ryx. Simple.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="contactDirection">
+                    <p class="contactDirectionIcon">🚗</p>
+                    <div class="contactDirectionText">
+                      <p class="contactDirectionTitle">By Car</p>
+                      <p>
+                        From the A1(M) take junction 17 → follow signs to City
+                        Centre → Bishop's Rd. Nearest car park:
+                        <strong>Queensgate NCP</strong> (3 min walk). Parking
+                        rate: £2.50/hr — cheaper than failing your maths exam.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="contactDirection">
+                    <p class="contactDirectionIcon">🚶</p>
+                    <div class="contactDirectionText">
+                      <p class="contactDirectionTitle">On Foot</p>
+                      <p>
+                        From city centre: head north along Bridge St → left onto
+                        Bishop's Rd → University House is on your right. d =
+                        0.6km, t ≈ 8 minutes at average walking speed. You've
+                        got this.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Right: Google Maps-->
+        <div id="contactSec5RBorder">
+          <div id="contactSec5R">
+            <div id="contactSec5RMapBorder" class="contactContentBorder">
+              <iframe
+                id="contactSec5Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2423.4!2d-0.2450!3d52.5740!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877f0b0d3a2c5f5%3A0x5a0b3f2e1c4d6789!2sUniversity%20House%2C%20Bishop&#39;s%20Rd%2C%20Peterborough%20PE1%205BW!5e0!3m2!1sen!2suk!4v1700000000000"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Math0ryx Location - University House Peterborough"
+              >
+              </iframe>
+            </div>
+            <div id="contactSec5RAddressBorder" class="contactContentBorder">
+              <div id="contactSec5RAddress">
+                <p>📍 University House, Bishop's Rd, Peterborough PE1 5BW</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--Footer-->
+    <footer id="footerMain">
+      <div id="footerBorder">
+        <div id="footerPannelBorder0" class="footerBorder">
+          <div id="footerPannel0">
+            <div id="footerLogoDiv">
+              <a href="index.html">
+                <img id="footerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Mathoryx Logo"/>
+              </a>
+            </div>
+
+            <div id="footerTitleDiv">
+              <a href="index.html">
+                <img id="headerTitleImg" src="Images/Header/website_name.png" alt="Mathoryx Website Name"/>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div id="footerPannelBorder1" class="footerBorder">
+          <div id="footerPannel1">
+            <ul>
+              <li>
+                <a href="whatwedo.html">What We Do</a>
+              </li>
+              <li>
+                <a href="whatwedonotdo.html">What We DO NOT DO</a>
+              </li>
+              <li>
+                <a href="whatwebelieve.html">What We Believe</a>
+              </li>
+              <li>
+                <a href="accessibility.html">Accessibility Statement</a>
+              </li>
+              <li>
+                <a href="compliance.html">Compliance With Legislation</a>
+              </li>
+              <li>
+                <a href="equalitydiversity.html">Equality and Diversity</a>
+              </li>
+              <li>
+                <a href="sustainability.html">Sustainability</a>
+              </li>
+              <li>
+                <a href="transparency.html">Transparency</a>
+              </li>
+              <li>
+                <a href="vacancies.html">Jobs at Math0ryx</a>
+              </li>
+              <li>
+                <a href="index.html">Explore Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder2" class="footerBorder">
+          <div id="footerPannel2">
+            <ul>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="report.html">Report a Problem</a>
+              </li>
+              <li>
+                <a href="suggest.html">Suggest Correction</a>
+              </li>
+              <li>
+                <a href="share.html">Share Your Ideas</a>
+              </li>
+              <li>
+                <a href="contribute.html">Contribute and Volunteer</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to Our Team</a>
+              </li>
+              <li>
+                <a href="contact.html">Meet Us</a>
+              </li>
+              <li>
+                <a href="support.html">Support in Learning</a>
+              </li>
+              <li>
+                <a href="tutor.html">Personal Tutor</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder3" class="footerBorder">
+          <div id="footerPannel3">
+            <ul>
+              <li>
+                <a href="makeapayment.html">Make Payment Online</a>
+              </li>
+              <li>
+                <a href="bookcourses.html">Book Courses</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Invest Into Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Support The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Befriend The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">GoFundMe Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Get involved with Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footerCopyrightBorderDiv" class="footerBorder">
+        <div id="footerCopyrightDiv">
+          <p>
+            Website Math0ryx is protected by Copyright, and if you copy it we
+            will slap you on the wrist
+          </p>
+        </div>
+      </div>
+    </footer>
+   
+     <script src="JS/signup.js" defer></script>
+  </body>
+</html>

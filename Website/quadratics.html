@@ -1,0 +1,534 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Quadratics - Math0ryx Lesson</title>
+    <meta name="description" content="Index page for Math0ryx website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/quadratics.css" />
+  </head>
+  <body>
+    <!--Script declaration-->
+    <script src="JS/index.js" async defer></script>
+    <script src="JS/common.js" async defer></script>
+
+    <!--Header-->
+     <header id="headerMain">
+      <div id="headerBorder">
+        <div id="headerLogoDiv">
+          <a href="index.html">
+            <img id="headerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Math0ryx official logo" />
+          </a>
+        </div>
+        <div id="headerTitleDiv">
+          <a href="index.html">
+            <img id="headerTitleImg" src="Images/Header/Website_Name_V2.png" alt="Math0ryx website name and brand" />
+          </a>
+        </div>
+        <div id="headerSearchDiv">
+          <input id="headerSearchBar" type="search" placeholder="Search.." aria-label="Search the Math0ryx website" />
+        </div>
+
+        <div class="hamburger" id="hamburgerIcon" onclick="toggleHamburger()" aria-label="Toggle navigation menu" role="button" tabindex="0">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="hamburgerMenu">
+          <div class="headerNavButton">
+            <a href="index.html"><input type="button" value="Home" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="aboutus.html"><input type="button" value="About us" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="lessons.html"><input type="button" value="Lessons" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="games.html"><input type="button" value="Quizzes" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="login.html"><input type="button" value="Log In" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="ourteam.html"><input type="button" value="Our Team" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="contact.html"><input type="button" value="Contact" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="exam.html"><input type="button" value="Exam" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="savescore.html"><input type="button" value="Leader Board" /></a>
+          </div>
+        </div>
+
+        <div id="headerNavBarDiv">
+          
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="aboutus.html">
+              <input id="navButton1" type="button" value="About us" />
+            </a>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="lessons.html">
+              <input id="navButton1" type="button" value="Lessons" />
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoning.html">
+                  <input type="button" value="Proportional Reasoning"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebra.html">
+                  <input type="button" value="Visual Algebra"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadratics.html">
+                  <input type="button" value="Quadratics"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasions.html">
+                  <input type="button" value="Solving Equations"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchance.html">
+                  <input type="button" value="Probability and Chance"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculus.html">
+                  <input type="button" value="Calculus"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="games.html">
+              <input id="navButton1" type="button" value="Quizzes"/>
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoningquiz.html">
+                  <input type="button" value="Proportional Reasoning Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebraquiz.html">
+                  <input type="button" value="Visual Algebra Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadraticsquiz.html">
+                  <input type="button" value="Quadratics Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasionsquiz.html">
+                  <input type="button" value="Solving Equations Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchancequiz.html">
+                  <input type="button" value="Probability and Chance Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculusquiz.html">
+                  <input type="button" value="Calculus Quiz"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="exam.html">
+                <input id="navButton1" type="button" value="Exam" />
+              </a>
+            </div>
+            <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="savescore.html">
+                <input id="navButton1" type="button" value="Leader Board" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="login.html">
+                <input id="navButton1" type="button" value="Log In" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="ourteam.html">
+                <input id="navButton1" type="button" value="Our Team" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="contact.html">
+                <input id="navButton1" type="button" value="Contact" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+
+    <!--Floating Button-->
+    <div class="fabContainer">
+      <button class="fab" onclick="toggleFab()">+</button>
+      <div class="fabOptions">
+        <button onclick="goHome()">🏠</button>
+        <button onclick="goSearch()">🔍</button>
+        <button onclick="toggleDark()">🌙</button>
+      </div>
+    </div>
+
+    <!--Body-->
+    <main id="lessonMain">
+      <section id="lessonSecBorder">
+        <div id="lessonSec">
+          <!-- Title -->
+          <div id="lessonTitleBorder">
+            <div id="lessonTitle">
+              <h4>Quadratics</h4>
+            </div>
+          </div>
+
+          <!-- Video -->
+          <div id="lessonVideoBorder">
+            <div id="lessonVideoContainer">
+              <video id="videoWelcomePage" controls autoplay muted loop playsinline>
+                  <source src="Videos/video.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div id="lessonDescBorder">
+            <div id="lessonDesc">
+              <p>
+                In this lesson, we explore quadratic equations and how to solve
+                them using factoring, completing the square, and the quadratic
+                formula. By the end, you will be able to identify, graph, and
+                solve any quadratic equation with confidence. Take your time,
+                pause the video whenever you need, and make sure you understand
+                each step before moving on.
+              </p>
+              <br />
+              <p>
+                Welcome to the weird and wonderful world of
+                <strong>quadratics</strong>. Yes, the word sounds like a robot
+                sneezed while doing maths homework, but stay with me.
+              </p>
+
+              <p>A quadratic equation usually looks like this:</p>
+
+              <p><strong>ax² + bx + c = 0</strong></p>
+
+              <p>Where:</p>
+
+              <ul>
+                <li>
+                  <strong>a</strong>, <strong>b</strong>, and
+                  <strong>c</strong> are numbers
+                </li>
+                <li>
+                  <strong>x²</strong> means x multiplied by itself (x × x)
+                </li>
+                <li>
+                  The <strong>x²</strong> is the important part — if you see
+                  that, you’ve spotted a quadratic
+                </li>
+              </ul>
+
+              <br />
+
+              <p>
+                Congratulations. You are now officially a
+                <strong>Quadratic Detective</strong>. Imagine yourself wearing a
+                trench coat and investigating suspicious-looking numbers.
+              </p>
+
+              <br />
+
+              <p>
+                When you draw the graph of a quadratic, you don’t get a boring
+                straight line. Instead you get a <strong>parabola</strong>,
+                which is a smooth curve that looks like:
+              </p>
+
+              <ul>
+                <li>a banana</li>
+                <li>a skateboard ramp</li>
+                <li>
+                  or the path a confused pigeon might fly if it suddenly
+                  remembered it left the oven on
+                </li>
+              </ul>
+
+              <p>
+                AQA exam questions often ask where the graph crosses the x-axis.
+                These values are called the <strong>roots</strong> or
+                <strong>solutions</strong>.
+              </p>
+
+              <p>
+                Think of the graph like a trampoline. The points where it
+                touches the ground are the <strong>roots</strong>.
+              </p>
+
+              <br />
+
+              <p><strong>Method 1: Factorising</strong></p>
+
+              <p>Example:</p>
+
+              <p><strong>x² + 5x + 6 = 0</strong></p>
+
+              <p>We look for two numbers that:</p>
+
+              <ul>
+                <li><strong>multiply to make 6</strong></li>
+                <li><strong>add to make 5</strong></li>
+              </ul>
+
+              <p>The numbers are <strong>2 and 3</strong>.</p>
+
+              <p>So we rewrite the equation like this:</p>
+
+              <p><strong>(x + 2)(x + 3) = 0</strong></p>
+
+              <p>Now we use the golden rule:</p>
+
+              <p>
+                <strong
+                  >If two things multiply to make zero, one of them must be
+                  zero.</strong
+                >
+              </p>
+
+              <ul>
+                <li><strong>x + 2 = 0 → x = −2</strong></li>
+                <li><strong>x + 3 = 0 → x = −3</strong></li>
+              </ul>
+
+              <p>
+                That’s it. Two solutions found. Like discovering two secret
+                exits from a maths escape room.
+              </p>
+
+              <br />
+
+              <p><strong>Method 2: The Quadratic Formula</strong></p>
+
+              <p>
+                Sometimes factorising refuses to cooperate, like a stubborn cat
+                that won’t get in its carrier. That’s when the
+                <strong>quadratic formula</strong> appears like a maths
+                superhero:
+              </p>
+
+              <p><strong>x = (-b ± √(b² − 4ac)) / 2a</strong></p>
+
+              <p>
+                The part inside the square root is called the
+                <strong>discriminant</strong>:
+              </p>
+
+              <p><strong>b² − 4ac</strong></p>
+
+              <p>This tells you what kind of answers you’ll get:</p>
+
+              <ul>
+                <li><strong>positive</strong> → two solutions</li>
+                <li><strong>zero</strong> → one solution</li>
+                <li><strong>negative</strong> → no real solutions</li>
+              </ul>
+
+              <br />
+
+              <p><strong>Final AQA Survival Tips</strong></p>
+
+              <ul>
+                <li>
+                  <strong>Try factorising first</strong> because it’s usually
+                  faster
+                </li>
+                <li>
+                  <strong>Use the quadratic formula</strong> if the numbers look
+                  ugly
+                </li>
+                <li><strong>Always write both answers</strong></li>
+              </ul>
+
+              <p>
+                Forgetting the second answer in an AQA exam is like ordering
+                pizza and only eating the crust. Technically possible, but
+                deeply upsetting.
+              </p>
+            </div>
+          </div>
+
+          <!-- Button -->
+           <div id="lessonButtonBorder">
+            <a href="quadraticsquiz.html">
+              <button id="lessonButton">Do Quadratics Quizz</button>
+            </a>
+             <a href="quadraticsgame.html">
+              <button id="lessonButton">Play Quadratics Game</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+     <!--Footer-->
+    <footer id="footerMain">
+      <div id="footerBorder">
+        <div id="footerPannelBorder0" class="footerBorder">
+          <div id="footerPannel0">
+            <div id="footerLogoDiv">
+              <a href="index.html">
+                <img id="footerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Mathoryx Logo"/>
+              </a>
+            </div>
+
+            <div id="footerTitleDiv">
+              <a href="index.html">
+                <img id="headerTitleImg" src="Images/Header/website_name.png" alt="Mathoryx Website Name"/>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div id="footerPannelBorder1" class="footerBorder">
+          <div id="footerPannel1">
+            <ul>
+              <li>
+                <a href="whatwedo.html">What We Do</a>
+              </li>
+              <li>
+                <a href="whatwedonotdo.html">What We DO NOT DO</a>
+              </li>
+              <li>
+                <a href="whatwebelieve.html">What We Believe</a>
+              </li>
+              <li>
+                <a href="accessibility.html">Accessibility Statement</a>
+              </li>
+              <li>
+                <a href="compliance.html">Compliance With Legislation</a>
+              </li>
+              <li>
+                <a href="equalitydiversity.html">Equality and Diversity</a>
+              </li>
+              <li>
+                <a href="sustainability.html">Sustainability</a>
+              </li>
+              <li>
+                <a href="transparency.html">Transparency</a>
+              </li>
+              <li>
+                <a href="vacancies.html">Jobs at Math0ryx</a>
+              </li>
+              <li>
+                <a href="index.html">Explore Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder2" class="footerBorder">
+          <div id="footerPannel2">
+            <ul>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="report.html">Report a Problem</a>
+              </li>
+              <li>
+                <a href="suggest.html">Suggest Correction</a>
+              </li>
+              <li>
+                <a href="share.html">Share Your Ideas</a>
+              </li>
+              <li>
+                <a href="contribute.html">Contribute and Volunteer</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to Our Team</a>
+              </li>
+              <li>
+                <a href="contact.html">Meet Us</a>
+              </li>
+              <li>
+                <a href="support.html">Support in Learning</a>
+              </li>
+              <li>
+                <a href="tutor.html">Personal Tutor</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder3" class="footerBorder">
+          <div id="footerPannel3">
+            <ul>
+              <li>
+                <a href="makeapayment.html">Make Payment Online</a>
+              </li>
+              <li>
+                <a href="bookcourses.html">Book Courses</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Invest Into Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Support The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Befriend The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">GoFundMe Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Get involved with Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footerCopyrightBorderDiv" class="footerBorder">
+        <div id="footerCopyrightDiv">
+          <p>
+            Website Math0ryx is protected by Copyright, and if you copy it we
+            will slap you on the wrist
+          </p>
+        </div>
+      </div>
+    </footer>
+   
+     <script src="JS/signup.js" defer></script>
+  </body>
+</html>
+

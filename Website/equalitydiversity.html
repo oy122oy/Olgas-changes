@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Not Found</title>
+    <meta name="description" content="404 - Page Not Found" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        gap: 24px;
+      }
+
+      h1 {
+        font-size: clamp(1.8rem, 5vw, 3rem);
+        color: #111;
+        text-align: center;
+      }
+
+      #videoWelcomePage {
+        width: min(90vw, 800px);
+        border-radius: 20px;
+        display: block;
+      }
+
+      #returnHomeBtn {
+        display: inline-block;
+        padding: 12px 32px;
+        background-color: #111;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1rem;
+      }
+
+      #returnHomeBtn:hover {
+        background-color: #333;
+      }
+    </style>
+  </head> 
+  <body>
+
+    <h>Page Not Found</h>
+
+    <video id="videoWelcomePage" autoplay muted loop playsinline aria-label="Page not found animation">
+      <source src="Videos/video.mp4" type="video/mp4" />
+    </video>
+
+    <audio id="audioWelcomePage" autoplay loop aria-label="Background music">
+      <source src="Sounds/pagenotfound.mp3" type="audio/mpeg" />
+    </audio>
+
+    <a id="returnHomeBtn" href="index.html">Return Home</a>
+
+    <script>
+      const audio = document.getElementById('audioWelcomePage');
+
+      // auto plays on any interaaction  
+      function unlockAudio() {
+        audio.play().catch(() => {});
+        document.removeEventListener('click', unlockAudio);
+        document.removeEventListener('keydown', unlockAudio);
+        document.removeEventListener('touchstart', unlockAudio);
+      }
+
+      document.addEventListener('click', unlockAudio);
+      document.addEventListener('keydown', unlockAudio);
+      document.addEventListener('touchstart', unlockAudio);
+    </script>
+
+  </body>
+</html>

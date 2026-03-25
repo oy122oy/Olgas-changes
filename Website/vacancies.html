@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Learn Maths and Have Fun</title>
+        <meta name="description" content="Index page for Math0ryx website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/common.css">
+        <link rel="stylesheet" href="CSS/ourteam.css">
+    </head>
+    <body>
+        <!--Script declaration-->
+        <script src="JS/index.js" async defer></script>
+        <script src="JS/common.js" async defer></script>
+
+
+    <!--Header-->
+    <header id="headerMain">
+      <div id="headerBorder">
+        <div id="headerLogoDiv">
+          <a href="index.html"
+            ><img id="headerLogoImg" src="Images/Header/WebsiteLogo.webp"
+          /></a>
+        </div>
+        <div id="headerTitleDiv">
+          <a href="index.html"
+            ><img id="headerTitleImg" src="Images/Header/Website_Name_V2.png"
+          /></a>
+        </div>
+        <div id="headerSearchDiv">
+          <input id="headerSearchBar" type="search" placeholder="Search.." />
+        </div>
+
+        <div class="hamburger" id="hamburgerIcon" onclick="toggleHamburger()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="hamburgerMenu">
+          <div class="headerNavButton">
+            <a href="aboutus.html"><input type="button" value="About us" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="lessons.html"><input type="button" value="Lessons" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="games.html"><input type="button" value="Games" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="login.html"><input type="button" value="LogIn" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="ourteam.html"><input type="button" value="OurTeam" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="contact.html"><input type="button" value="Contact" /></a>
+          </div>
+        </div>
+
+        <div id="headerNavBarDiv">
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="index.html">
+              <input id="navButton1" type="button" value="Home" />
+            </a>
+          </div>
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="aboutus.html">
+              <input id="navButton1" type="button" value="About us" />
+            </a>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="lessons.html">
+              <input id="navButton1" type="button" value="Lessons" />
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoning.html">
+                  <input type="button" value="Proportional Reasoning"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebra.html"
+                  ><input type="button" value="Visual Algebra"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadratics.html"
+                  ><input type="button" value="Quadratics"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasions.html"
+                  ><input type="button" value="Solving Equations"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchance.html"
+                  ><input type="button" value="Probability and Chance"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculus.html"
+                  ><input type="button" value="Calculus"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="games.html">
+              <input id="navButton1" type="button" value="Quizzes"/>
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoningquiz.html"
+                  ><input type="button" value="Proportional Reasoning Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebraquiz.html"
+                  ><input type="button" value="Visual Algebra Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadraticsquiz.html"
+                  ><input type="button" value="Quadratics Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasionsquiz.html"
+                  ><input type="button" value="Solving Equations Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchancequiz.html"
+                  ><input type="button" value="Probability and Chance Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculusquiz.html"
+                  ><input type="button" value="Calculus Quiz"/>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div id="headerNavBarDiv">
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="exam.html">
+              <input id="navButton1" type="button" value="Exam" />
+            </a>
+          </div>
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="login.html">
+              <input id="navButton1" type="button" value="Log In" />
+            </a>
+          </div>
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="ourteam.html">
+              <input id="navButton1" type="button" value="Our Team" />
+            </a>
+          </div>
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="contact.html">
+              <input id="navButton1" type="button" value="Contact" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Floating Button-->
+    <div class="fabContainer">
+      <button class="fab" onclick="toggleFab()">+</button>
+      <div class="fabOptions">
+        <button onclick="goHome()">🏠</button>
+        <button onclick="goSearch()">🔍</button>
+        <button onclick="toggleDark()">🌙</button>
+      </div>
+    </div>
+
+        
+        <!--Body-->
+        <main id="indexMain">
+            <!--Third section of Content-->
+            <section id="indexSec3Border" class="indexContentBorder">
+                <div id="indexSec3">
+                    <!--Title Area-->
+                    <div id="indexSec3TitleBorder" class="indexContentBorder">
+                        <div id="indexSec3Title">
+                            <h4>Vacancies Available Today!</h4>
+                        </div>
+                    </div>
+                    <!--Sub title card-->
+                    <div id="indexSec3SubtitleBorder" class="indexContentBorder">
+                        <div id="indexSec3Subtitle">
+                             <p>
+                               
+                <strong>Can you be our next team member?</strong><br>
+                We have vacancies!<br>
+                Join our friendly team today!<br>
+                We offer free training and free meals.<br>
+                We promise not to get you overworked!<br>
+                You get to keep your bad habits!<br>
+                We are a fun environment.<br>
+                You will receive 28 days of holiday a year and free life insurance worth £10mln.
+            
+                            </p>
+                        </div>
+                    </div>
+                    <!--Main content cards-->
+                    <div id="indexSec3ContentCardsContainer">
+                        <div id="indexSec3Content1Border" class="indexContentBorder">
+                            <div id="indexSec3Content1Container">
+                                <div class="reviewface">
+                                    <img id="reviewFace" src="Images/Vacancies/softdev.png">
+                                </div>
+                                <p>
+                                    <strong>Software Developper </strong><br> 
+                                    We’re looking for a software developer. Not a “rockstar ninja guru”. Just… someone who can code without setting things on fire.
+
+You can work from home. Wear shorts. Wear flip flops. Wear a hoodie that hasn’t seen daylight since 2020. We don’t care. No need to sound fancy in meetings either — if you can explain your code without using words like “synergy”, you’re already ahead.
+
+Your main job?
+Sit comfortably. Write code. Fight bugs. Repeat.
+
+You can work from your sofa, your desk, your bed… honestly, if inspiration strikes while you’re in the bathroom, we’re not asking questions.
+
+If you can build things, fix things, and occasionally defeat a bug that’s been ruining everyone’s day — we want you.
+
+Apply now. Or later. We know you’re busy debugging.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="indexSec3Content2Border" class="indexContentBorder">
+                            <div id="indexSec3Content2Container">
+                                <div class="reviewface">
+                                    <img id="reviewFace" src="Images/Vacancies/backender.png">
+                                </div>
+                                <p>
+                                    <strong >Back End Developer </strong> <br> Yes, We Know You’re Back There Somewhere.
+
+We’re looking for a backend developer. We know you exist… you’re just usually hiding behind APIs and databases where no one can see you.
+
+We offer good working conditions — mainly meaning you can stay in your natural habitat (your “nest”), keep your questionable habits, and focus on building things that actually work.
+
+All we ask is this: remind us you’re alive once in a while.
+Something like:
+“Hey boss, database is ready. Anything else?”
+
+That’s it. Communication level: minimal but reassuring.
+
+Show up to a meeting once a month, keep the backend running, and honestly… you’re a hero to us.
+
+If that sounds like your vibe, come join us. We promise not to drag you into unnecessary front-end drama.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="indexSec3Content3Border" class="indexContentBorder">
+                            <div id="indexSec3Content3Container">
+                                <div class="reviewface">
+                                    <img id="reviewFace" src="Images/Vacancies/boss.png">
+                                </div>
+                                <p>
+                                    <strong> Boss</strong> <br>
+
+                                    With a boss, we are four productive, semi-responsible humans.
+Without a boss… we are four people watching dog videos and calling it “research.” <br>
+
+
+Our previous one tried. They really did.
+But somewhere between “quick stand-up meeting” and “why is nothing done?”, they slowly lost the will to continue. We wish them well.
+<br>
+
+Stop us from falling into a 3-hour TikTok spiral involving dogs, raccoons, and oddly satisfying cleaning videos
+<br>
+We don’t need a scary boss. <br>
+We need a persistent one. The kind who checks in just enough that we remember we have responsibilities. <br>
+Perks:<br>
+
+Work with a team that has potential (we promise)
+<br>
+Watch productivity increase instantly when you enter the chat. Join us.
+
+                                </p>
+                            </div>
+                        </div>
+                       
+
+
+
+
+                    </div>
+                    <!--Sub content card-->
+                    <div id="indexSec3SubcontentBorder" class="indexContentBorder">
+                        <div id="indexSec3Subcontent">
+                            <p>Let Us Know You Are Interested</p>
+                            <div class="reviewface">
+                                <a href="contact.html" target="_blank" rel=" ">
+                                    <img id="trustPilot" src="Images/Vacancies/jobseeker.png" alt="I want this job">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fourth Section of Content-->
+            <section id="indexSec4Border" class="indexContentBorder">
+                <div id="indexSec4">
+                    <!--Title cards-->
+                    <div id="indexSec4TitleCardsBorder">
+                        <div id="indexSec4TitleCards">
+                            <div id="indexSec4TitleBorder" class="indexContentBorder">
+                                <div id="indexSec4Title">
+                                    <p>start free trial now</p>
+                                </div>
+                            </div>
+                            <div id="indexSec4SubtitleBorder" class="indexContentBorder">
+                                <div id="indexSec4Subtitle">
+                                    <p>Learn with 100% certainty!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Email Entry-->
+                    <div id="indexSec4EmailEntryBorder">
+                        <div id="indexSec4EmailEntryContainer">
+                            <input id="indexSec4EmailField" type="email" placeholder="Email...">
+                            <input id="indexSec4EmailSubmit" type="submit" value="Submit">
+                        </div>
+                    </div>
+                    <!--Bottom note-->
+                    <div id="indexSec4EmailSubnoteBorder">
+                        <div id="indexSec4EmailSubnote">
+                            <a href="terms.html" class="terms-link">
+                                <p>
+                                    Math0ryx will never share your details with third parties.
+                                    <br>
+                                    Find Our Terms and Conditions Below.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Footer-->
+    <footer id="footerMain">
+      <div id="footerBorder">
+        <div id="footerPannelBorder0" class="footerBorder">
+          <div id="footerPannel0">
+            <div id="footerLogoDiv">
+              <a href="index.html">
+                <img id="footerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Mathoryx Logo"/>
+              </a>
+            </div>
+
+            <div id="footerTitleDiv">
+              <a href="index.html">
+                <img id="headerTitleImg" src="Images/Header/website_name.png" alt="Mathoryx Website Name"/>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div id="footerPannelBorder1" class="footerBorder">
+          <div id="footerPannel1">
+            <ul>
+              <li>
+                <a href="whatwedo.html">What We Do</a>
+              </li>
+              <li>
+                <a href="whatwedonotdo.html">What We DO NOT DO</a>
+              </li>
+              <li>
+                <a href="whatwebelieve.html">What We Believe</a>
+              </li>
+              <li>
+                <a href="accessibility.html">Accessibility Statement</a>
+              </li>
+              <li>
+                <a href="compliance.html">Compliance With Legislation</a>
+              </li>
+              <li>
+                <a href="equalitydiversity.html">Equality and Diversity</a>
+              </li>
+              <li>
+                <a href="sustainability.html">Sustainability</a>
+              </li>
+              <li>
+                <a href="transparency.html">Transparency</a>
+              </li>
+              <li>
+                <a href="vacancies.html">Jobs at Math0ryx</a>
+              </li>
+              <li>
+                <a href="index.html">Explore Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder2" class="footerBorder">
+          <div id="footerPannel2">
+            <ul>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="report.html">Report a Problem</a>
+              </li>
+              <li>
+                <a href="suggest.html">Suggest Correction</a>
+              </li>
+              <li>
+                <a href="share.html">Share Your Ideas</a>
+              </li>
+              <li>
+                <a href="contribute.html">Contribute and Volunteer</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to Our Team</a>
+              </li>
+              <li>
+                <a href="contact.html">Meet Us</a>
+              </li>
+              <li>
+                <a href="support.html">Support in Learning</a>
+              </li>
+              <li>
+                <a href="tutor.html">Personal Tutor</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder3" class="footerBorder">
+          <div id="footerPannel3">
+            <ul>
+              <li>
+                <a href="makeapayment.html">Make Payment Online</a>
+              </li>
+              <li>
+                <a href="bookcourses.html">Book Courses</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Invest Into Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Support The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Befriend The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">GoFundMe Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Get involved with Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footerCopyrightBorderDiv" class="footerBorder">
+        <div id="footerCopyrightDiv">
+          <p>
+            Website Math0ryx is protected by Copyright, and if you copy it we
+            will slap you on the wrist
+          </p>
+        </div>
+      </div>
+    </footer>
+   
+     <script src="JS/signup.js" defer></script>
+  </body>
+</html>

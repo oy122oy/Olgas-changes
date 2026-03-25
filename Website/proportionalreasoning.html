@@ -1,0 +1,498 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn Maths and Have Fun</title>
+    <meta name="description" content="Index page for Math0ryx website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/common.css" />
+    <link rel="stylesheet" href="CSS/quadratics.css" />
+  </head>
+  <body>
+    <!--Script declaration-->
+    <script src="JS/index.js" async defer></script>
+    <script src="JS/common.js" async defer></script>
+
+    <!--Header-->
+     <header id="headerMain">
+      <div id="headerBorder">
+        <div id="headerLogoDiv">
+          <a href="index.html">
+            <img id="headerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Math0ryx official logo" />
+          </a>
+        </div>
+        <div id="headerTitleDiv">
+          <a href="index.html">
+            <img id="headerTitleImg" src="Images/Header/Website_Name_V2.png" alt="Math0ryx website name and brand" />
+          </a>
+        </div>
+        <div id="headerSearchDiv">
+          <input id="headerSearchBar" type="search" placeholder="Search.." aria-label="Search the Math0ryx website" />
+        </div>
+
+        <div class="hamburger" id="hamburgerIcon" onclick="toggleHamburger()" aria-label="Toggle navigation menu" role="button" tabindex="0">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="hamburgerMenu">
+          <div class="headerNavButton">
+            <a href="index.html"><input type="button" value="Home" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="aboutus.html"><input type="button" value="About us" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="lessons.html"><input type="button" value="Lessons" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="games.html"><input type="button" value="Quizzes" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="login.html"><input type="button" value="Log In" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="ourteam.html"><input type="button" value="Our Team" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="contact.html"><input type="button" value="Contact" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="exam.html"><input type="button" value="Exam" /></a>
+          </div>
+          <div class="headerNavButton">
+            <a href="savescore.html"><input type="button" value="Leader Board" /></a>
+          </div>
+        </div>
+
+        <div id="headerNavBarDiv">
+          
+          <div class="headerNavButton" id="headerNavButton1">
+            <a href="aboutus.html">
+              <input id="navButton1" type="button" value="About us" />
+            </a>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="lessons.html">
+              <input id="navButton1" type="button" value="Lessons" />
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoning.html">
+                  <input type="button" value="Proportional Reasoning"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebra.html">
+                  <input type="button" value="Visual Algebra"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadratics.html">
+                  <input type="button" value="Quadratics"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasions.html">
+                  <input type="button" value="Solving Equations"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchance.html">
+                  <input type="button" value="Probability and Chance"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculus.html">
+                  <input type="button" value="Calculus"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="headerNavButton dropdown" id="headerNavButton1">
+            <a href="games.html">
+              <input id="navButton1" type="button" value="Quizzes"/>
+            </a>
+            <div class="dropdown-content">
+              <div class="headerNavButton">
+                <a href="proportionalreasoningquiz.html">
+                  <input type="button" value="Proportional Reasoning Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="visualalgebraquiz.html">
+                  <input type="button" value="Visual Algebra Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="quadraticsquiz.html">
+                  <input type="button" value="Quadratics Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="solvingequasionsquiz.html">
+                  <input type="button" value="Solving Equations Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="probabilityandchancequiz.html">
+                  <input type="button" value="Probability and Chance Quiz"/>
+                </a>
+              </div>
+              <div class="headerNavButton">
+                <a href="calculusquiz.html">
+                  <input type="button" value="Calculus Quiz"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="exam.html">
+                <input id="navButton1" type="button" value="Exam" />
+              </a>
+            </div>
+            <div id="headerNavBarDiv">
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="savescore.html">
+                <input id="navButton1" type="button" value="Leader Board" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="login.html">
+                <input id="navButton1" type="button" value="Log In" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="ourteam.html">
+                <input id="navButton1" type="button" value="Our Team" />
+              </a>
+            </div>
+            <div class="headerNavButton" id="headerNavButton1">
+              <a href="contact.html">
+                <input id="navButton1" type="button" value="Contact" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+
+    <!--Floating Button-->
+    <div class="fabContainer">
+      <button class="fab" onclick="toggleFab()">+</button>
+      <div class="fabOptions">
+        <button onclick="goHome()">🏠</button>
+        <button onclick="goSearch()">🔍</button>
+        <button onclick="toggleDark()">🌙</button>
+      </div>
+    </div>
+
+
+
+    <!--Body-->
+    <main id="lessonMain">
+      <section id="lessonSecBorder">
+        <div id="lessonSec">
+          <!-- Title -->
+          <div id="lessonTitleBorder">
+            <div id="lessonTitle">
+              <h4>Proportional Reasoning</h4>
+            </div>
+          </div>
+
+        
+
+<!-- Video -->
+<div id="lessonVideoBorder">
+  <div id="lessonVideoContainer">
+    <video
+      id="videoWelcomePage"
+      controls
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      aria-label="Welcome lesson video"
+    >
+      <source src="Videos/video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<!-- Audio -->
+
+
+  <audio id="lessonAudio" controls loop playsinline aria-label="Proportional reasoning lesson" preload="none">
+    <source src="Sounds/proportionalreasoninglesson.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+
+          <!-- Description -->
+          <div id="lessonDescBorder">
+            <div id="lessonDesc">
+              <p>
+                In this lesson, we explore proportional reasoning — how
+                quantities change in relation to each other. By the end, you'll
+                be able to spot, solve, and survive any AQA proportion question.
+              </p>
+
+              <p>
+                Welcome to the world of <strong>proportion</strong>, where maths
+                basically asks: “if this changes… what happens to that?”
+              </p>
+
+              <p>
+                It’s like adjusting the volume on your phone — everything scales
+                up or down. Except here, instead of music, it’s numbers.
+                Slightly less fun, but still useful.
+              </p>
+
+              <br />
+
+              <p><strong>Direct Proportion</strong></p>
+
+              <p>Direct proportion means:</p>
+
+              <p>
+                <strong>as one thing increases, the other increases too</strong>
+              </p>
+
+              <p>Example:</p>
+
+              <ul>
+                <li>More items → more cost</li>
+                <li>More distance → more time (at same speed)</li>
+              </ul>
+
+              <p>If 5 pens cost £10, then:</p>
+
+              <ul>
+                <li>1 pen costs £2</li>
+                <li>10 pens cost £20</li>
+              </ul>
+
+              <p>
+                Everything scales nicely. Like resizing a photo… except less
+                blurry.
+              </p>
+
+              <br />
+
+              <p><strong>The formula:</strong></p>
+              <p><strong>y = kx</strong></p>
+
+              <p>
+                k is the constant of proportionality (basically the “per one”
+                value).
+              </p>
+
+              <p>
+                Find k first. Always. Skipping this step is like trying to bake
+                a cake without checking the recipe. It might work… but it
+                probably won’t.
+              </p>
+
+              <br />
+
+              <p><strong>Inverse Proportion</strong></p>
+
+              <p>Now things get spicy.</p>
+
+              <p><strong>as one increases, the other decreases</strong></p>
+
+              <p>Example:</p>
+
+              <ul>
+                <li>More workers → less time</li>
+                <li>Higher speed → less travel time</li>
+              </ul>
+
+              <p><strong>Formula:</strong></p>
+              <p><strong>y = k / x</strong></p>
+
+              <p>
+                So if you double x, y halves. Maths suddenly becomes very
+                dramatic.
+              </p>
+
+              <br />
+
+              <p><strong>AQA Exam Tips</strong></p>
+
+              <ul>
+                <li>Always identify: direct or inverse</li>
+                <li>Find k early</li>
+                <li>Write units clearly</li>
+              </ul>
+
+              <p>
+                Mixing up direct and inverse proportion in an exam is like
+                putting salt in your tea. Technically possible… but deeply
+                concerning.
+              </p>
+            </div>
+          </div>
+
+          <!-- Button -->
+           <div id="lessonButtonBorder">
+            <a href="proportionalreasoningquiz.html">
+              <button id="lessonButton">Do Proportional Reasoning Quizz</button>
+            </a>
+             <a href="proportionalreasoninggame.html">
+              <button id="lessonButton">Play Proportional Reasoning Game</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+ 
+     <!--Footer-->
+    <footer id="footerMain">
+      <div id="footerBorder">
+        <div id="footerPannelBorder0" class="footerBorder">
+          <div id="footerPannel0">
+            <div id="footerLogoDiv">
+              <a href="index.html">
+                <img id="footerLogoImg" src="Images/Header/WebsiteLogo.webp" alt="Mathoryx Logo"/>
+              </a>
+            </div>
+
+            <div id="footerTitleDiv">
+              <a href="index.html">
+                <img id="headerTitleImg" src="Images/Header/website_name.png" alt="Mathoryx Website Name"/>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div id="footerPannelBorder1" class="footerBorder">
+          <div id="footerPannel1">
+            <ul>
+              <li>
+                <a href="whatwedo.html">What We Do</a>
+              </li>
+              <li>
+                <a href="whatwedonotdo.html">What We DO NOT DO</a>
+              </li>
+              <li>
+                <a href="whatwebelieve.html">What We Believe</a>
+              </li>
+              <li>
+                <a href="accessibility.html">Accessibility Statement</a>
+              </li>
+              <li>
+                <a href="compliance.html">Compliance With Legislation</a>
+              </li>
+              <li>
+                <a href="equalitydiversity.html">Equality and Diversity</a>
+              </li>
+              <li>
+                <a href="sustainability.html">Sustainability</a>
+              </li>
+              <li>
+                <a href="transparency.html">Transparency</a>
+              </li>
+              <li>
+                <a href="vacancies.html">Jobs at Math0ryx</a>
+              </li>
+              <li>
+                <a href="index.html">Explore Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder2" class="footerBorder">
+          <div id="footerPannel2">
+            <ul>
+              <li>
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="report.html">Report a Problem</a>
+              </li>
+              <li>
+                <a href="suggest.html">Suggest Correction</a>
+              </li>
+              <li>
+                <a href="share.html">Share Your Ideas</a>
+              </li>
+              <li>
+                <a href="contribute.html">Contribute and Volunteer</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to Our Team</a>
+              </li>
+              <li>
+                <a href="contact.html">Meet Us</a>
+              </li>
+              <li>
+                <a href="support.html">Support in Learning</a>
+              </li>
+              <li>
+                <a href="tutor.html">Personal Tutor</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="footerPannelBorder3" class="footerBorder">
+          <div id="footerPannel3">
+            <ul>
+              <li>
+                <a href="makeapayment.html">Make Payment Online</a>
+              </li>
+              <li>
+                <a href="bookcourses.html">Book Courses</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Invest Into Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Support The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Befriend The Team</a>
+              </li>
+              <li>
+                <a href="donate.html">GoFundMe Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Get involved with Team</a>
+              </li>
+              <li>
+                <a href="donate.html">Donate to the Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footerCopyrightBorderDiv" class="footerBorder">
+        <div id="footerCopyrightDiv">
+          <p>
+            Website Math0ryx is protected by Copyright, and if you copy it we
+            will slap you on the wrist
+          </p>
+        </div>
+      </div>
+    </footer>
+   
+     <script src="JS/signup.js" defer></script>
+  </body>
+</html>
+
+    
